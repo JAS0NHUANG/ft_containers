@@ -26,4 +26,5 @@ void	vector_test() {
 
 	std::vector<int>::allocator_type::pointer	r;
 	std::cout << r;
+	}
 }
