@@ -3,36 +3,34 @@
 #include <vector>
 #include <iostream>
 
-void	vector_test() {
+void	test_vector() {
 	std::cout << BYEL "\n\n~~~~~~~~~~~~~~~~ VECTOR ~~~~~~~~~~~~~~~~\n" RESET;
 	{
-		using namespace std;
+		std::cout << BBLU "\nTHIS IS THE STD LIBRARY!\n" RESET;
 
-		cout << BBLU "\nTHIS IS THE STD LIBRARY!\n" RESET;
-
-		vector<int> theVec;
+		std::vector<int> theVec;
 		theVec.reserve(1);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 		theVec.push_back(11);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 		theVec.push_back(11);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 		theVec.push_back(11);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 		theVec.push_back(11);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 		theVec.push_back(11);
-		cout << theVec.capacity();
-		cout << "\n";
+		std::cout << theVec.capacity();
+		std::cout << "\n";
 
-		vector<int>::allocator_type::pointer	r;
-		cout << r;
-		cout << "\n";
+		std::vector<int>::allocator_type::pointer	r;
+		std::cout << r;
+		std::cout << "\n";
 	}
 	{
 		using namespace ft;

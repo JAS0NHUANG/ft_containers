@@ -8,7 +8,11 @@ RM			=	rm
 #       TITLE                                                                  #
 # **************************************************************************** #
 NAME		=	ft_containers
-TEST		=	ft_containers_test
+TEST		=	test_all
+TEST_P		=	test_pair
+TEST_V		=	test_vector
+TEST_M		=	test_map
+TEST_S		=	test_stack
 
 # **************************************************************************** #
 #       FLAGS                                                                  #
@@ -26,6 +30,14 @@ endif
 SRCS		=	main.cpp \
 
 TEST_SRCS	=	tests/test_all.cpp \
+
+TEST_P_SRCS	=	tests/test_pair.cpp \
+
+TEST_V_SRCS	=	tests/test_vector.cpp \
+
+TEST_M_SRCS	=	tests/test_map.cpp \
+
+TEST_S_SRCS	=	tests/test_stack.cpp \
 
 # **************************************************************************** #
 #       RULES                                                                  #

@@ -1,9 +1,13 @@
 #include "./colorcodes.hpp"
-
 #include "./test_vector.cpp"
+#include "./test_pair.cpp"
+#include "./test_map.cpp"
 
-#include <vector>
+#include <iostream>
 
 int main() {
-	vector_test();
+	test_vector();
+	test_pair();
+	std::cout << "map: ";
+	test_map();
 }
