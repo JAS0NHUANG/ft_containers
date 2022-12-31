@@ -77,11 +77,11 @@ Utility
 - `std::make_pair`  
 
 <details>
-	<summary>Check List</summary>
-	- [ ] pair()
-	- [ ] pair( const T1 &X, const T2 &Y)
-	- [ ] template< class U1, class U2> pair( const pair<U1, U2> & p)
-	- [ ] pair(const pair& p) = default
+<summary>Check List</summary>
+- [ ] pair()  
+- [ ] pair( const T1 &X, const T2 &Y)  
+- [ ] template< class U1, class U2> pair( const pair<U1, U2> & p)  
+- [ ] pair(const pair& p) = default  
 </details>
 
 
