@@ -8,6 +8,7 @@ RM			=	rm
 #       TITLE                                                                  #
 # **************************************************************************** #
 NAME		=	ft_containers
+42			=	ft_containers_42
 TEST		=	test_all
 TEST_P		=	test_pair
 TEST_V		=	test_vector

@@ -89,6 +89,14 @@ Utility
 
 Some other notions
 --------------------------------------------------------------------------------- 
+### red-black tree
+1. node is either red or black  
+2. root is black  
+3. NIL leaves are black  
+4. red can't have red child  
+5. paths from EVERY node to leaves contain same number of black nodes  
+
+
 
 ### Template specialization
 Get a special behavior for a particular data type.

@@ -10,6 +10,9 @@ void	test_vector() {
 
 		std::vector<int> theVec;
 		theVec.reserve(1);
+		theVec.reserve(1);
+		std::cout << "std vec capacity: " << theVec.capacity() << "\n";
+		std::cout << "std vec max size: " <<  theVec.max_size() << "\n";
 		std::cout << theVec.capacity();
 		std::cout << "\n";
 		theVec.push_back(11);
@@ -33,13 +36,12 @@ void	test_vector() {
 		std::cout << "\n";
 	}
 	{
-		using namespace ft;
-
 		std::cout << BCYN "\nTHIS IS MY FT_CONTAINERS!\n" RESET;
 
-		vector<int> theVec;
+		ft::vector<int> theVec;
 		theVec.reserve(1);
-		std::cout << theVec.capacity();
+		std::cout << "ft vec capacity: " << theVec.capacity() << "\n";
+		std::cout << "ft vec max size: " <<  theVec.max_size() << "\n";
 		/*
 		std::cout << "\n";
 		theVec.push_back(11);

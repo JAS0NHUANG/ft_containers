@@ -26,13 +26,29 @@ namespace ft {
 			typedef				pointer									iterator;
 			typedef				const_pointer							const_iterator;
 
+			typedef				std::size_t								size_type;
+
 /*
 			typedef	typename	std::reverse_iterator<value_type>		reverse_iterator;
 			typedef	typename	std::reverse_iterator<const value_type>	const_reverse_iterator;
 			*/
 
+			size_type	max_size(void) const {
+				return ( this->_allocator.max_size() );
+			};
+			void		reserve(size_type n) {
+				(void)n;
+
+			};
+
+			size_type	capacity(void) const {
+				return ( 5 );
+			};
+
+
 		private:
-			
+			allocator_type	_allocator;
+
 
 	};
 
