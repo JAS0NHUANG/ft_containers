@@ -96,11 +96,14 @@ Some other notions
 4. red can't have red child  
 5. paths from EVERY node to leaves contain same number of black nodes  
 
-
-
 ### Template specialization
 Get a special behavior for a particular data type.
 https://www.geeksforgeeks.org/template-specialization-c/
 
 ### Allocator
 [One reason to Modify your Memory Allocator (C/C++)](https://www.youtube.com/watch?v=RoVD6zlftF0)
+
+### explicit
+https://stackoverflow.com/questions/121162/what-does-the-explicit-keyword-mean
+https://www.scaler.com/topics/cpp-explicit/
+https://en.cppreference.com/w/cpp/language/explicit
